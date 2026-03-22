@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Production build output
+build/
+
+# Docusaurus generated files
+.docusaurus/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
