@@ -1,47 +1,41 @@
 ---
 sidebar_position: 1
+slug: /
 ---
 
-# Tutorial Intro
+# aknWiki
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to **aknWiki** — the central documentation hub for all services, projects, and tools within the **akn** ecosystem, developed and maintained by [Ahnaf Kabir](https://akn.me.uk).
 
-## Getting Started
+## What is akn?
 
-Get started by **creating a new site**.
+The akn ecosystem is a collection of live services, charitable projects, playground experiments, and productivity tools built by Ahnaf Kabir, a designer and developer based in London, UK. Each project reflects a commitment to purposeful design — software that genuinely helps people.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## Site Directory
 
-### What you'll need
+| Site | URL | Category | Description |
+|------|-----|----------|-------------|
+| akn.me.uk | [akn.me.uk](https://akn.me.uk) | Portfolio | Personal portfolio and home base |
+| Status | [status.akn.me.uk](https://status.akn.me.uk) | Infrastructure | Live uptime & incident monitoring |
+| Startpage | [startpage.akn.me.uk](https://startpage.akn.me.uk) | Productivity | Personal browser startpage / dashboard |
+| Agora | [agora.akn.org.uk](https://agora.akn.org.uk) | Charity | Refugee community mobile platform |
+| AuraCare | [auracare.dev.auracle.akn.org.uk](https://auracare.dev.auracle.akn.org.uk) | Healthcare | Pharmacy triage & NHS integration system |
+| Nalu | [nalu.playground.akn.org.uk](https://nalu.playground.akn.org.uk) | Playground | Coral disease predictive modelling tool |
+| TPI | [tpi.akn.org.uk](https://tpi.akn.org.uk) | Education | The Pathway Initiative — free tutoring |
+| Applis | [applis.helper.etonstem.akn.org.uk](https://applis.helper.etonstem.akn.org.uk) | Tools | Applicant/recruitment management dashboard |
+| Waves | [waves.playground.akn.me.uk](https://waves.playground.akn.me.uk) | Playground | Audio-reactive wave visualiser |
+| EC Timetable | [tt.ec.playground.akn.me.uk](https://tt.ec.playground.akn.me.uk) | Playground | Eton College timetable viewer & calendar export |
+| Docs | [docs.akn.me.uk](https://docs.akn.me.uk) | Meta | This documentation site |
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## Navigation
 
-## Generate a new site
+Use the sidebar to browse documentation for each service. Docs are organised into four sections:
 
-Generate a new Docusaurus site using the **classic template**.
+- **Core** — The main portfolio site and infrastructure (status, startpage)
+- **Projects** — Full charitable and professional projects (Agora, AuraCare, TPI, Applis)
+- **Playground** — Experimental tools and demos (Waves, EC Timetable, Nalu)
+- **Meta** — Documentation about this wiki itself
 
-The classic template will automatically be added to your project after you run the command:
+---
 
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+> Access to some services requires authentication via **aknClient**.
