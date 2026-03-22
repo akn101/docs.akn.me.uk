@@ -56,18 +56,22 @@ const config: Config = {
       //   src: 'img/logo.svg',
       // },
       items: [
-        // {
-        //   type: 'docSidebar',
-        //   sidebarId: 'tutorialSidebar',
-        //   position: 'left',
-        //   label: 'Tutorial',
-        // },
-        // {to: '/blog', label: 'Blog', position: 'left'},
-        // {
-        //   href: 'https://github.com/facebook/docusaurus',
-        //   label: 'GitHub',
-        //   position: 'right',
-        // },
+        {
+          type: 'docSidebar',
+          sidebarId: 'tutorialSidebar',
+          position: 'left',
+          label: 'Docs',
+        },
+        {
+          href: 'https://status.akn.me.uk',
+          label: 'Status',
+          position: 'right',
+        },
+        {
+          href: 'https://akn.me.uk',
+          label: 'akn.me.uk',
+          position: 'right',
+        },
       ],
     },
     footer: {
